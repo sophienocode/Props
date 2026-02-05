@@ -9,6 +9,7 @@
 
 */
 
+import Person from "./components/Challenge/Person"
 import Props from "./components/Props"
 import PropsDestructuring from "./components/PropsDestructuring"
 
@@ -35,6 +36,18 @@ function App() {
       isTuning={false}
       hobbies={["Chasing BMWs and Mercedes, ", "Cut up Traffic, ", ]}
       />
+
+      <hr />
+      <Person 
+      img="/images/sueca.png"
+      name="Emma"
+      age={23}
+      
+      />
+
+      <hr />
+
+      
     </>
   )
 }
