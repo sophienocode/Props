@@ -10,6 +10,7 @@
 */
 
 import Person from "./components/Challenge/Person"
+import Product from "./components/Challenge/Product"
 import Props from "./components/Props"
 import PropsDestructuring from "./components/PropsDestructuring"
 
@@ -47,7 +48,14 @@ function App() {
 
       <hr />
 
+      <Product 
+      img="/images/iphone16.webp"
+      name="Iphone"
+      price={3000}
       
+      />
+
+
     </>
   )
 }
