@@ -9,6 +9,7 @@
 
 */
 
+import Card from "./components/Card"
 import Person from "./components/Challenge/Person"
 import Product from "./components/Challenge/Product"
 import Props from "./components/Props"
@@ -55,6 +56,20 @@ function App() {
       
       />
 
+      <Card>
+        <h1>My Card 1</h1>
+        <p>This is some content for card 1</p>
+      </Card>
+
+      <Card>
+        <h1>My Card 2</h1>
+        <p>This is some content for card 1</p>
+      </Card>
+
+      <Card>
+        <h1>My Card 3</h1>
+        <p>This is some content for card 1</p>
+      </Card>
 
     </>
   )
